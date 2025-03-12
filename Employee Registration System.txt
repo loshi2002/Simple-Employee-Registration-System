@@ -1,0 +1,43 @@
+Employee Registration System
+
+Personal Information
+
+Full Name
+Date of Birth
+Gender
+Contact Number
+Email Address
+Address (current and permanent)
+
+Employment Details
+Employee ID (unique identifier)
+Date of Joining
+Department
+Designation
+Employment Type (full-time, part-time, contractual, etc.)
+Reporting Manager
+
+Salary & Payroll Information
+Salary details (basic, allowances, deductions)
+Bank account information
+Tax Identification Number (e.g., PAN, SSN)
+
+Educational Qualifications
+Degree(s) and certifications
+Institutions and years of graduation
+
+Professional Experience
+Previous employer(s)
+Job roles and responsibilities
+Duration of previous employment
+
+Emergency Contact Details
+Name
+Relationship
+Phone number(s)
+
+Documents
+ID Proof (e.g., passport, driving license)
+Address Proof
+Certificates (educational or professional)
+Employee contract/agreement

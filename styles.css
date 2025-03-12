@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    color: #1C2E4A;
+}
+
+.info{
+    display: flex;
+    min-height: fit-content;
+}
+
+.side-bar{
+    max-width:45%;
+    min-height: 100%;
+}
+.office-image{
+    opacity: 0.9;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.main-bar{
+    background-color: #6B7C8C;
+    max-width: 70%;
+    padding: 75px;
+    min-height: fit-content;
+}
+
+label{
+    color: rgb(240, 230, 230);
+    text-shadow: 1px 1px #0F1A2B;
+}
+
+h1{
+    font-size: 38px;
+    font-family: "Merriweather";
+    color: #d7c3b3;
+    text-shadow: 1px 1px rgb(21, 20, 20);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form{
+    display: block;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+input{
+    min-width: 420px;   
+    height: 2.2rem; 
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    background-color: #E2C3A7;
+    color: #1C2E4A;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+.form-row{
+    display: block;
+    justify-content: center;
+}
+
+
+/*Designing radio buttons*/
+.gender-radio {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.gender-radio input[type="radio"] {
+    display: none; 
+}
+
+.gender-radio label {
+    display: inline-block;
+    padding: 8px 9px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #1C2E4A;
+    text-shadow: none;
+    transition: all 0.4s ease;
+}
+
+.gender-radio input[type="radio"]:checked + label {
+    background-color: #E2C3A7; 
+    border-color: #E2C3A7;
+    color: #2f2a2a;
+}
+
+.gender-radio label:hover {
+    background-color: #E2C3A7;
+}
+/*____________*/
+
+
+
+
+/* SECOND SECTION*/
+.second-bar{
+    background-color: #8e1e88;
+}
